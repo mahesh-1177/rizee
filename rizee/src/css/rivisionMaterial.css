@@ -1,0 +1,28 @@
+.rivisionMaterial-main{
+    position: absolute;
+    top: 480%;
+    left: 6%;
+    display: flex;
+}
+.rivisionMaterial-content{
+    width: 60%;
+    margin-top: 5%;
+}
+.rivisionMaterial-title{
+    color: #0b1a6f ;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 35px;
+}
+.rivisionMaterial-child-content{
+    font-size: 22px;
+    margin-bottom: 6%;
+    color: #a39f93;
+}
+.rivision-material-btn{
+    background-color: #0b1a6f;
+    padding: 10px 50px;
+}
+.rivisionMaterial-img{
+    width: 45%;
+}

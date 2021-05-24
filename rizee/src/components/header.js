@@ -1,16 +1,18 @@
 import React from 'react';
-import logo from '/home/mahesh/Desktop/Rizee-App/rizee/src/images/Logo.png';
-import '/home/mahesh/Desktop/Rizee-App/rizee/src/style.css';
+import logo from '../images/Logo.png'; 
+import '../css/header.css';
+import toggler from '../images/icons/menu_white_24dp.svg';
+
 
 function Header() {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-main fixed-top">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src={logo} alt="Rizee-logo" width="150" height="40" class="d-inline-block align-text-top" /></a>
+                    <a class="navbar-brand logo-link" href="#">
+                        <img src={logo} alt="Rizee-logo"  class="d-inline-block align-text-top navbar-logo" /></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                            <span class="navbar-toggler-icon"></span>
+                            <span ><img class='toggle' src={toggler} /></span>
                         </button>
                         <div class="collapse navbar-collapse " id="navbarNav">
                             <ul class="navbar-nav">
@@ -29,7 +31,7 @@ function Header() {
                                 <li class="nav-item">
                                 <a class="nav-link" href="#">Contact Us</a>
                                 </li> 
-                                <li class="nav-item" id="login">
+                                <li class="nav-item login-link" id="login">
                                 <a class="nav-link" href="#">Login</a>
                                 </li>
                                 <li class="nav-item">
@@ -42,5 +44,6 @@ function Header() {
         </div>
     )
 }
+
 
 export default Header

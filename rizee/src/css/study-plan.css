@@ -1,0 +1,49 @@
+.study-plans{
+    position: absolute;
+    top:120%;
+    left:6%;
+    bottom: 10%;
+} 
+.study-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px; 
+}
+.study-plan{
+    color: #1e478a;
+    font-weight: bold;
+    text-align: center;
+}
+.study-text{
+    width: 88%;
+    color: #70848a;
+}
+.study-card{
+    border: none;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 20px;
+}
+.card-bottom{
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+}
+.arrow-btn{
+    border: 2px solid #0b1a6f;
+    border-radius: 40px;
+}
+
+/*@media only screen and (max-width:600px) {
+    .study-plans {
+        width: 90%;
+    }
+    .study-title{
+        font-size: 30px;
+        width: 90%;
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+    
+} */

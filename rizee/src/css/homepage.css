@@ -1,0 +1,32 @@
+.home-figure{
+   position: absolute;
+    top: 19%;
+}
+.figure-caption{
+    position: absolute;
+    top: 25%;
+    color: #000;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+.text{
+    color: #0b1a6f;
+}
+.fig-caption-heading{
+    width: 60%;
+    font-size: 40px;
+}
+.fig-caption-child{
+    font-size: 20px;
+}
+.fig-btn{
+    background-color: #0b1a6f;
+    color: #fff;
+    margin-top: 3%;
+    padding: 10px 40px;
+}
+@media screen and (max-width:600px) {
+    .figure-img{
+        background-image: url('../images/Home\ Screen\ Image_Final\ 1\(3\).png');
+    }
+}

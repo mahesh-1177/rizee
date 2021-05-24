@@ -1,0 +1,36 @@
+.exam-main{
+    position: absolute;
+    top: 230%;
+    left: 6%;
+}
+.exam-main-title{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: arial;
+}
+.exams-title{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+.title-jee{
+    color: #1e478a;
+}
+.title-neet{
+    color: #f2bc0a;
+}
+.exam-chid{
+    text-align: center;
+}
+.exam-img{
+    width: 50%;
+    margin-left: 20%;
+}
+.explore-title{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bold;
+}

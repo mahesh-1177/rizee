@@ -1,0 +1,29 @@
+.previousExam-main{
+    position: absolute;
+    top: 380%;
+    left: 6%;
+    display: flex;
+    
+}
+.previousExam-img{
+    width: 35%;
+}
+.previousExam-content{
+    margin-top: 8%;
+    width: 55%;
+    margin-left: 5%;
+}
+.previousExam-title{
+    color: #0b1a6f ;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.previousExam-child-content{
+    font-size: 22px;
+    margin-bottom: 6%;
+    color: #a39f93;
+}
+.previousExam-btn{
+    background-color: #0b1a6f;
+    padding: 10px 50px;
+}

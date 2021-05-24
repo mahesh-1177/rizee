@@ -1,0 +1,53 @@
+.navbar-main{
+    height: 70px;
+    background-color:  #0b1a6f;
+    width: 100%;
+}
+.toggle{
+    width: 35px;
+}
+.navbar-logo{
+    width: 150px;
+    height: 40px;
+}
+.nav-item{
+   margin-left: 50px;
+   text-align: center;
+}
+
+.nav-link{ 
+    color: #FFFFFF !important;
+    font-weight: bold;
+
+}
+.active{
+    border-bottom: 2px solid #FFFFFF;
+
+}
+.login-link{
+    margin-left: 80px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.login-link a{
+    color: #000 !important;
+}
+ @media screen and (max-width:600px) {
+
+    .navbar-logo{
+        margin-left: 40px;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+
+     .nav-link{
+         color: #000 !important;
+              }
+     .active{
+         border: none;
+     }
+     .login-link{
+         display: no-colla;
+     }
+ }
